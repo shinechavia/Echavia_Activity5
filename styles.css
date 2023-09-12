@@ -1,0 +1,43 @@
+/* styles.css */
+header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.button {
+    color: white;
+    background-color: #e1e6eb; /* Blue color */
+    border-radius: 10px;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px; /* Add some padding to the button */
+    text-decoration: none; /* Remove underlines from links */
+}
+a {
+    color: green !important; /* Override the color to green */
+}
+
+button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove default button border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.icon-container a {
+    margin: 10px; /* Add some spacing between the icons */
+    font-size: 40px; /* Increase the icon size */
+}
